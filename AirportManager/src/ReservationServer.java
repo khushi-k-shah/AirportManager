@@ -6,19 +6,12 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Project 5 - Airport Manager
- *
- * @author Khushi Shah, Natalie Renee Evoniuk, Lab section g20
- * @version 12/3/19
- */
 public class ReservationServer {
     //1. connect to client 2.run client handler
     private ServerSocket serverSocket;
     private static String hostName = "";
     private static InetAddress ip;
 
-    //are we supposed to make up a hostname or create one?
     public ReservationServer() throws IOException {
         this.serverSocket = new ServerSocket(0);
     }
@@ -60,12 +53,7 @@ public class ReservationServer {
         server.serveClients();
     } //main
 
-    /**
-     * Project 5 - Airport Manager
-     *
-     * @author Khushi Shah, Natalie Renee Evoniuk, Lab section g20
-     * @version 12/3/19
-     */
+    
     public static class ClientHandler implements Runnable {
         private int count = 1;
         private Socket clientSocket;
