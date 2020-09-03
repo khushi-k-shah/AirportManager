@@ -7,12 +7,6 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Project 5 - Airport Manager
- *
- * @author Khushi Shah, Natalie Renee Evoniuk, Lab section g20
- * @version 12/3/19
- */
 public class ReservationClient {
     //creating the client socket
     //same thing as countdown client. creating a socket out of the server port
@@ -72,12 +66,6 @@ public class ReservationClient {
         }
     }
 
-    /**
-     * Project 5 - Airport Manager
-     *
-     * @author Khushi Shah, Natalie Renee Evoniuk, Lab section g20
-     * @version 12/3/19
-     */
     public static class ResponseListener extends JFrame {
         private static ArrayList<String> airlines;
         private static int readPassengers = 0;
