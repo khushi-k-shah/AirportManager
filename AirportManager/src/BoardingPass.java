@@ -1,11 +1,5 @@
 import java.io.Serializable;
 
-/**
- * Project 5 - Airport Manager
- *
- * @author Khushi Shah, Natalie Renee Evoniuk, Lab section g20
- * @version 12/3/19
- */
 public class BoardingPass implements Serializable {
     private Passenger passengerForBoardingPass;
     private Gate gate;
