@@ -3,13 +3,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- * Project 5 - Airport Manager
- *
- * @author Khushi Shah, Natalie Renee Evoniuk, Lab section g20
- * @version 12/3/19
- */
-
 public class Gate implements Serializable {
     private String terminal;
     private int gateNum;
